@@ -4,7 +4,7 @@
 }
 
 .nav {
-    height: 100px;
+    height: 68px;
     color: white;
     background-color: black;
     padding: 20px;
@@ -13,7 +13,12 @@
     align-items: center;
 }
 
-.fa-magnifying-glass, .fa-bars {
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.fa-magnifying-glass, .fa-bars, .fa-star {
     font-size: 24px;
     margin: 20px;
 }
